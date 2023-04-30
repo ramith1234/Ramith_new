@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
+import fcntl
 from collections import deque
+from gunicorn import util
 
 #default called trackbar function 
 def setValues(x):
